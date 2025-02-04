@@ -1,20 +1,19 @@
-import express, { json, urlencoded } from "express";
-import routes from "../routes";
-const { CartsRouter, ProductsRouter } = routes;
-import { logger } from "../middlewares";
+import express from 'express'
+import { ProductsRouter, CartsRouter } from '../routes/index.js'
+import { logger } from '../middlewares/logger.js'
+import { validateProduct } from '../middlewares/validation.js'
 
 const initApp = () => {
-  const app = express();
+  const app = express()
 
-  app.use(logger);
-  app.use(json());
-  app.use(urlencoded({ extended: true }));
+  app.use(express.json())
+  app.use(express.urlencoded({ extended: true }))
+  app.use(logger)
 
+  app.use('/api/products', validateProduct, ProductsRouter)
+  app.use('/api/carts', CartsRouter)
 
-  app.use("/api/products", ProductsRouter);
-  app.use("/api/carts", CartsRouter);
+  return app
+}
 
-  return app;
-};
-
-export default initApp;
+export default initApp

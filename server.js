@@ -1,8 +1,8 @@
-const initApp = require("./app").default;
-const PORT = 8080;
+import initApp from './app/index.js'
+import { config } from './config/index.js'
 
-const app = initApp();
+const app = initApp()
 
-app.listen(PORT, () => {
-  console.log(`Servidor escuchando en http://localhost:${PORT}`);
-});
+app.listen(config.PORT, () => {
+  console.log(`🚀 Servidor corriendo en http://localhost:${config.PORT}`)
+})
