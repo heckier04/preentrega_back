@@ -1,4 +1,6 @@
-import { logger } from './logger.js'
-import { validateProduct } from './validation.js'
+import { logger } from './logger.js';
+import { validateProduct, validateInputCarts } from './validation.js';
 
-export { logger, validateProduct }
+
+export { validateProduct, validateInputCarts };
+export { logger };

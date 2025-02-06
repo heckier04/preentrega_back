@@ -1,10 +1,4 @@
-import { fileURLToPath } from 'url'
-import { dirname, join } from 'path'
-
-const __filename = fileURLToPath(import.meta.url)
-export const __dirname = join(dirname(__filename), '../../')
-
+// config/index.js
 export const config = {
-  dirname: __dirname,
-  PORT: 8080
-}
+  PORT: process.env.PORT || 8080,  // Si hay una variable de entorno PORT, se usará; si no, se usa 8080
+};
