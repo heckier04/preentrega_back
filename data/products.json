@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "af32f9c0-1f75-4138-a28e-7afead983a63",
+    "title": "EUROPA SOÑADA 🇪🇸🇮🇹🇫🇷 España Italia & Francia ✈️",
+    "description": "Incluye:☀ 15 días / 🌜13 noches✈️ Aéreos directos de Iberia con equipaje en bodega de 23kg🚐 Traslados in/out🛌🏻 13 noches de alojamiento🏨 Hotelería 3 y 4*☕ Régimen desayuno🚐 Transporte durante todo el recorrido👤 Guía acompañante de habla hispana durante todo el recorrido📸 Visitamos Madrid, Zaragoza, Barcelona, Costa Azul, Pisa, Roma, Florencia, Venecia, Annemasse, París, Lourdes y San Sebastián.🚑 Asistencia al viajero Universal Assistance Excellence",
+    "code": "P001",
+    "price": 3290,
+    "status": true,
+    "stock": 50,
+    "category": "viajes",
+    "thumbnails": [
+      "url_imagen_1",
+      "url_imagen_2"
+    ]
+  },
+  {
+    "id": "dfa33b79-78e5-4ff5-b347-f55f87e213c3",
+    "title": "¿INVIERNO EN LA PLAYA? EN BRASIL 🇧🇷☀️",
+    "description": "*ESPECIAL: NATAL 🏖️* Salidas 👉 18 de Julio Incluye: ☀ 08 Días / 🌜07 Noches ✈️ Aéreo directo (con carry on 10kg + art. personal) 🚐 Traslados in/out 🛌🏻 07 noches de alojamiento 🏨 El Aram Imirá Beach Resort 4* / Similar 🍹 Régimen All Inclusive 🚑 Asistencia al viajero Universal Assistance Excellence",
+    "code": "P002",
+    "price": 1890,
+    "status": true,
+    "stock": 30,
+    "category": "viajes",
+    "thumbnails": [
+      "url_imagen_3",
+      "url_imagen_4"
+    ]
+  },
+  {
+    "id": "05d63bc1-d678-411b-934c-41b8f163a298",
+    "title": "Producto 2",
+    "description": "Descripción del Producto 2",
+    "code": "P003",
+    "price": 100,
+    "status": true,
+    "stock": 10,
+    "category": "Electrónica",
+    "thumbnails": [
+      "url_imagen_3",
+      "url_imagen_4"
+    ]
+  },
+  {
+    "id": "0eb28597-0315-4550-a1f4-e51eee0ff047",
+    "title": "Producto 2",
+    "description": "Descripción del Producto 2",
+    "code": "P004",
+    "price": 100,
+    "status": true,
+    "stock": 10,
+    "category": "Electrónica",
+    "thumbnails": [
+      "url_imagen_3",
+      "url_imagen_4"
+    ]
+  },
+  {
+    "id": "6d99d373-d97e-462e-8cbe-2cc3c2e3a1a3",
+    "title": "Producto 2",
+    "description": "Descripción del Producto 2",
+    "code": "P005",
+    "price": 100,
+    "status": true,
+    "stock": 10,
+    "category": "Electrónica",
+    "thumbnails": [
+      "url_imagen_3",
+      "url_imagen_4"
+    ]
+  }
+]

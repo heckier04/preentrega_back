@@ -12,7 +12,7 @@ const initApp = () => {
 
   // Rutas principales
   app.use('/api/products', ProductsRouter);
-  app.use('/api/cart', CartsRouter);
+  app.use('/api/carts', CartsRouter);
 
   // Ruta para ver si la app responde
   app.get('/', (_req, res) => {
