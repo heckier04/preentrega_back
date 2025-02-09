@@ -28,42 +28,14 @@
     ]
   },
   {
-    "id": "05d63bc1-d678-411b-934c-41b8f163a298",
-    "title": "Producto 2",
-    "description": "Descripción del Producto 2",
-    "code": "P003",
-    "price": 100,
-    "status": true,
-    "stock": 10,
-    "category": "Electrónica",
-    "thumbnails": [
-      "url_imagen_3",
-      "url_imagen_4"
-    ]
-  },
-  {
-    "id": "0eb28597-0315-4550-a1f4-e51eee0ff047",
-    "title": "Producto 2",
-    "description": "Descripción del Producto 2",
-    "code": "P004",
-    "price": 100,
-    "status": true,
-    "stock": 10,
-    "category": "Electrónica",
-    "thumbnails": [
-      "url_imagen_3",
-      "url_imagen_4"
-    ]
-  },
-  {
     "id": "6d99d373-d97e-462e-8cbe-2cc3c2e3a1a3",
-    "title": "Producto 2",
-    "description": "Descripción del Producto 2",
-    "code": "P005",
-    "price": 100,
+    "title": "No mas vuelos hasta el momento ",
+    "description": "sin descripcion",
+    "code": "P003",
+    "price": 10000000,
     "status": true,
-    "stock": 10,
-    "category": "Electrónica",
+    "stock": 1,
+    "category": "viajes",
     "thumbnails": [
       "url_imagen_3",
       "url_imagen_4"
